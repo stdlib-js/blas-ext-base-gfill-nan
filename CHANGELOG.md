@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-05)
+## Unreleased (2026-07-06)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`3df6682`](https://github.com/stdlib-js/stdlib/commit/3df6682dc2541019d13b0772a4b868ac7857e0f3) - **docs:** fix heading _(by Athan Reines)_
 -   [`09ad8f9`](https://github.com/stdlib-js/stdlib/commit/09ad8f96a6aa56fd15ce2c49dc7a3bed7470bfe2) - **feat:** add `blas/ext/base/gfill-nan` [(#13272)](https://github.com/stdlib-js/stdlib/pull/13272) _(by Muhammad Haris, Athan Reines)_
 
 </details>
