@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import gfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-nan@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/blas-ext-base-gfill-nan/tags). For example,
+
+```javascript
 import gfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-nan@v0.0.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-nan@v0.0.0-esm/index.mjs';
+import { ndarray } from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-nan@esm/index.mjs';
 ```
 
 #### gfillNaN( N, alpha, x, strideX )
@@ -146,7 +151,7 @@ gfillNaN.ndarray( 3, 0.0, x, 1, x.length-3 );
 <script type="module">
 
 import nans from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-nans@esm/index.mjs';
-import gfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-nan@v0.0.0-esm/index.mjs';
+import gfillNaN from 'https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill-nan@esm/index.mjs';
 
 var x = nans( 10 );
 console.log( x );
