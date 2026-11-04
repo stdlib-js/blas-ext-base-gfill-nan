@@ -1,0 +1,4 @@
+// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import r from"https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-nonenumerable-read-only-property@v0.2.3-esm/index.mjs";import s from"https://cdn.jsdelivr.net/gh/stdlib-js/strided-base-stride2offset@v0.1.1-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/math-base-assert-is-nan@v0.2.3-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.2.2-esm/index.mjs";function n(r,s,n,i,a){var d,o,m;if(r<=0)return n;if((o=t(n)).accessorProtocol)return function(r,s,t,n,i){var a,d,o,m,c,f;for(a=t.data,d=t.accessors[0],o=t.accessors[1],m=i,c=0;c<r;c++)f=d(a,m),e(f)&&o(a,m,s),m+=n}(r,s,o,i,a),n;for(d=a,m=0;m<r;m++)e(n[d])&&(n[d]=s),d+=i;return n}function i(r,e,t,i){return n(r,e,t,i,s(r,i))}r(i,"ndarray",n);export{i as default,n as ndarray};
+//# sourceMappingURL=index.mjs.map
